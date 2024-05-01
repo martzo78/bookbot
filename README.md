@@ -1,3 +1,3 @@
 # bookbot 
-Hi, this is my first coding project that I have created as part of my Boot.Dev journey. I am not quite sure yet what the project will be about and will update this file once I know more. 
+Bookbot is a simple command-line program that reads text from a file and generates a report about the text.
 BookBot is my first git project!
