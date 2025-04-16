@@ -16,3 +16,17 @@ def count_caracters(text):
             caracters[c] = 1
     return caracters
 
+def sort_on_count(dict):
+    return dict["count"]
+
+def sorted_list(caracters):
+    list = []
+    for caracter in caracters:
+        list.append({"car": caracter, "count": caracters[caracter]})
+    list.sort(key=sort_on_count, reverse=True)
+    return list
+
+
+
+    
+
